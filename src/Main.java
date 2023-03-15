@@ -65,10 +65,10 @@ public class Main {
         int bottlesPerDay = bottlesPerHour * 24;
         int bottlesPer3Days = bottlesPerDay * 3;
         int bottlesPerMonth = bottlesPer3Days * 10;
-        System.out.println("За 20 минут машина произвела " + bottlesPer20Minutes + " штук бутылок");
-        System.out.println("За час машина произвела      " + bottlesPerHour + " штук бутылок");
-        System.out.println("в сутки машина произвела     " + bottlesPerDay + " штук бутылок");
-        System.out.println("за 3 дня машина произвела    " + bottlesPer3Days + " штук бутылок");
+        System.out.println("За 20 минут машина произвела " + bottlesPer20Minutes + "    штук бутылок");
+        System.out.println("За час машина произвела      " + bottlesPerHour + "    штук бутылок");
+        System.out.println("в сутки машина произвела     " + bottlesPerDay + "  штук бутылок");
+        System.out.println("за 3 дня машина произвела    " + bottlesPer3Days + "  штук бутылок");
         System.out.println("за 1 месяц  машина произвела " + bottlesPerMonth + " штук бутылок");
     }
 
